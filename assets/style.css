@@ -57,6 +57,10 @@ button{
     background-color: var(--dr-secondary-background);
 }
 
+.col-3{
+    width: calc((100% / 12)* 3);
+}
+
 .col-4{
     width: calc((100% / 12)* 4);
 }
@@ -152,8 +156,10 @@ button{
     color: var(--dr-button-unchecked)
 }
 
+/*partner*/
 .partner{
     display: flex;
+    padding: 4.5rem 0;
 }
 
 .partner_img img{
@@ -164,12 +170,30 @@ button{
     padding: 4rem;
 }
 
-
-
 .partner_contents button{
     margin: 2rem 0;
 }
 
+/*operations*/
+.operations{
+    padding: 4.5rem 0;
+}
+.operations .row{
+    display: flex;
+    padding: 4.5rem 0 0;
+    justify-content: space-between;
+}
+
+.operations h2{
+    font-size: 2rem;
+}
+
+.operations .col-4{
+    padding-right: 2.5rem;
+}
+.operations img{
+    width: 100%;
+}
 
 
 
