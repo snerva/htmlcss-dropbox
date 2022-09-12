@@ -8,7 +8,8 @@
     --dr-dark-text: #000000;
     --dr-light-text: #FFFFFF;
     --dr-secondary-background: #B4D0E7;
-    --dr-button-background: #0061FF;
+    --dr-button: #0061FF;
+    --dr-button-unchecked: #d0d0d3;
     --dr-link: #0000EE;
     --dr-text-freetrial: #61082B;
 }
@@ -20,25 +21,58 @@ body{
 
 header{
     position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+/*common*/
+h3{
+    padding-bottom: 1rem;
 }
 
 button{
     padding: 0.5rem 1rem;
-    border-style: none;
     font-size: 1rem;
 }
 
 .button_blue{
-    background-color: var(--dr-button-background);
+    background-color: var(--dr-button);
+    border-style: none;
     color: var(--dr-light-text);
 }
 
+.button_white{
+    background-color: var(--dr-light-text);
+    border-color: 1px solid var(--dr-dark-text);
+}
+
 .container{
-    width: 70%;
+    width: 60%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.jumbo,
+.free_trial{
+    background-color: var(--dr-secondary-background);
+}
+
+.col-4{
+    width: calc((100% / 12)* 4);
+}
+
+.col-5{
+    width: calc((100% / 12)* 5);
+}
+
+.col-7{
+    width: calc((100% / 12)* 7);
+}
+
+
+.col-8{
+    width: calc((100% / 12)* 8);
+}
 
 
 /*#region header*/
@@ -62,6 +96,82 @@ button{
 /*#endregion header*/
 
 /*#region main*/
+/*jumbo*/
+.jumbo_container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.jumbo_container h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    padding: 3.5rem 0;
+}
+
+.jumbo_contents{
+    display: flex;
+}
+
+.jumbo_contents button{
+    margin: 1.5rem 0 ;
+}
+
+.fa-arrow-down{
+    width: 40px;
+}
+
+.jumbo_contents_img img{
+    width: 100%;
+    margin-bottom: -4rem;
+}
+
+/*plans*/
+.plans{
+    padding: 4.5rem 0;
+}
+.plans h2{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 4.5rem 0;
+}
+
+.plans_billing{
+    display: flex;
+}
+
+.monthly_bill{
+    margin-right: 2.5rem;
+}
+
+.fa-circle-dot{
+    color: var(--dr-button);
+}
+
+.fa-circle{
+    color: var(--dr-button-unchecked)
+}
+
+.partner{
+    display: flex;
+}
+
+.partner_img img{
+    width: 100%;
+}
+
+.partner_contents{
+    padding: 4rem;
+}
+
+
+
+.partner_contents button{
+    margin: 2rem 0;
+}
+
+
+
 
 
 /*#endregion main*/
