@@ -33,6 +33,12 @@ button{
     color: var(--dr-light-text);
 }
 
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 
 /*#region header*/
