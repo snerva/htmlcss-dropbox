@@ -26,6 +26,9 @@ header{
 }
 
 /*common*/
+h2{
+    font-size: 2rem;
+}
 h3{
     padding-bottom: 1rem;
 }
@@ -50,6 +53,7 @@ button{
     width: 60%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 4.5rem 0;
 }
 
 .jumbo,
@@ -131,9 +135,6 @@ button{
 }
 
 /*plans*/
-.plans{
-    padding: 4.5rem 0;
-}
 .plans h2{
     font-size: 2rem;
     font-weight: 700;
@@ -159,7 +160,6 @@ button{
 /*partner*/
 .partner{
     display: flex;
-    padding: 4.5rem 0;
 }
 
 .partner_img img{
@@ -175,17 +175,10 @@ button{
 }
 
 /*operations*/
-.operations{
-    padding: 4.5rem 0;
-}
 .operations .row{
     display: flex;
     padding: 4.5rem 0 0;
     justify-content: space-between;
-}
-
-.operations h2{
-    font-size: 2rem;
 }
 
 .operations .col-4{
@@ -195,9 +188,14 @@ button{
     width: 100%;
 }
 
+/*find out more*/
+.find_out_more h2{
+    padding-bottom: 4rem;
+}
 
-
-
+.link_blue{
+    color: var(--dr-link);
+}
 /*#endregion main*/
 
 
