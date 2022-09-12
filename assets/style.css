@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --dr-dark-text: #000000;
+    --dr-light-text: #FFFFFF;
+    --dr-secondary-background: #B4D0E7;
+    --dr-button-background: #0061FF;
+    --dr-link: #0000EE;
+    --dr-text-freetrial: #61082B;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dr-dark-text);
+}
+
+header{
+    position: sticky;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-style: none;
+    font-size: 1rem;
+}
+
+.button_blue{
+    background-color: var(--dr-button-background);
+    color: var(--dr-light-text);
+}
+
+
+
+/*#region header*/
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--dr-light-text);
+}
+.menu a{
+    text-decoration: none;
+    color: var(--dr-dark-text);
+    padding: 0 20px ;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid black;
+}
+/*#endregion header*/
+
+/*#region main*/
+
+
+/*#endregion main*/
+
+
+
