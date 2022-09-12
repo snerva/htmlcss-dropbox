@@ -51,7 +51,7 @@ button{
 
 .container{
     width: 60%;
-    max-width: 1200px;
+    max-width: 998px;
     margin: 0 auto;
     padding: 4.5rem 0;
 }
@@ -107,7 +107,7 @@ button{
 /*jumbo*/
 .jumbo_container{
     width: 80%;
-    max-width: 1200px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -125,8 +125,14 @@ button{
     margin: 1.5rem 0 ;
 }
 
+.jumbo_contents_text{
+    position: relative;
+}
 .fa-arrow-down{
-    width: 40px;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
 }
 
 .jumbo_contents_img img{
