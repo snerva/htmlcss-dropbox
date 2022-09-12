@@ -73,6 +73,10 @@ button{
     width: calc((100% / 12)* 5);
 }
 
+.col-6{
+    width: calc((100% / 12)* 6);
+}
+
 .col-7{
     width: calc((100% / 12)* 7);
 }
@@ -84,6 +88,13 @@ button{
 
 .col-12{
     width: calc((100% / 12)*12);
+}
+
+.jumbo_container,
+.footer_container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 
@@ -109,12 +120,6 @@ button{
 
 /*#region main*/
 /*jumbo*/
-.jumbo_container{
-    width: 80%;
-    max-width: 1180px;
-    margin: 0 auto;
-}
-
 .jumbo_container h1{
     font-size: 4.5rem;
     font-weight: 800;
@@ -200,8 +205,11 @@ button{
     padding: 1rem 0;
 }
 
-.plans_row button{
-    margin: 2rem 0;
+.button_centered{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    
 }
 
 .plans_row hr{
@@ -276,8 +284,80 @@ button{
     color: var(--dr-link);
 }
 
+/*free trial*/
+.start_trial{
+    display: flex;
+    justify-content: space-between;
+}
 
+.start_trial_left h2{
+    color: var(--dr-text-freetrial);
+}
+
+.start_trial_right .button_white{
+    border-style: none;
+    padding: 0.5rem 3rem;
+}
+
+/*faqs*/
+.faqs h2{
+    padding: 4rem 0;
+}
+
+.faqs{
+    padding-bottom: 9.5rem;
+}
+
+.faq{
+    padding: 2.5rem 0;
+}
+
+.faq .fa-angle-down{
+    padding: 0 2.5rem;
+    float: right;
+}
 /*#endregion main*/
+
+/*#region footer*/
+footer{
+    background-color: var(--dr-dark-text);
+    color: var(--dr-light-text);
+}
+
+.footer_row{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0;
+}
+
+.footer_row li{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+.footer_container hr{
+    width: 20%;
+    color: var(--dr-light-text);
+}
+
+.languages{
+    padding: 3rem 0;
+}
+.languages select{
+    background-color: var(--dr-dark-text);
+    border-style: none;
+}
+
+.languages i,
+.languages a{
+    color: var(--dr-button-unchecked);
+    text-decoration: none;
+}
+
+
+
+
+/*#region footer*/
 
 
 
