@@ -82,6 +82,10 @@ button{
     width: calc((100% / 12)* 8);
 }
 
+.col-12{
+    width: calc((100% / 12)*12);
+}
+
 
 /*#region header*/
 .menu{
@@ -163,6 +167,75 @@ button{
     color: var(--dr-button-unchecked)
 }
 
+.plans .plans_row{
+    display: flex;
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+
+.plans_row .col-4,
+.plans_row .col-12{
+    border: 1px solid var(--dr-dark-text); 
+}
+
+.plans_row .team{
+    margin: 0 2rem;
+}
+.plans_row .head{
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--dr-dark-text);
+}
+
+.plans_row .content{
+    padding: 2rem 1.5rem;
+}
+
+.plans_row ul{
+    padding-top: 2rem;
+}
+.plans_row li{
+    display: flex;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.plans_row button{
+    margin: 2rem 0;
+}
+
+.plans_row hr{
+    width: 25%;
+    margin: 2.5rem 0;
+}
+
+.fa-check{
+    color: var(--dr-button);
+}
+
+.plans_row i{
+    padding-right: 0.25rem;
+}
+
+.plans_row p{
+    padding-top: 0.5rem;
+}
+
+.team_bottom_contents{
+    display: flex;
+    position: relative;
+}
+
+.team_bottom_contents .col-4{
+    border-style: none;
+}
+
+.content_right button{
+    position: absolute;
+    top: 0;
+    right: 2rem;  
+}
+
 /*partner*/
 .partner{
     display: flex;
@@ -202,6 +275,8 @@ button{
 .link_blue{
     color: var(--dr-link);
 }
+
+
 /*#endregion main*/
 
 
