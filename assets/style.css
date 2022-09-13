@@ -12,14 +12,14 @@
     --dr-button-unchecked: #d0d0d3;
     --dr-link: #0000EE;
     --dr-text-freetrial: #61082B;
-    --dr-team-left-four: #0093CE;
-    --dr-team-right-three: #0D2481;
     --dr-team-left-one: #A2D39B;
     --dr-team-left-one-light: #D1E9CD;
     --dr-team-left-three: #D5001F;
-    --dr-team-big: #D9D9D9;
+    --dr-team-left-four: #0093CE;
+    --dr-team-big: #f5f5f5;
+    --dr-team-right-one: #d5001f;
+    --dr-team-right-three: #0D2481;
     --dr-team-right-four: #FFD936;
-
 }
 
 body{
@@ -291,6 +291,58 @@ button{
 .link_blue{
     color: var(--dr-link);
 }
+
+/*teams*/
+.teams_row{
+    display: flex;
+}
+
+.single_team{
+    background-color: var(--dr-team-big);
+}
+
+.multi_teams_row{
+    display: flex;
+}
+.team{
+    width: 320px;
+    height: 320px;
+}
+
+.multi_teams_row .one_left{
+    background-color: var(--dr-team-left-one);
+    border: 1rem solid var(--dr-team-left-one-light);
+}
+
+.multi_teams_row .two_left{
+    background-color: var(--dr-text-freetrial);
+}
+
+.multi_teams_row .three_left{
+    background-color: var(--dr-team-left-three);
+}
+
+.multi_teams_row .four_left{
+    background-color: var(--dr-team-left-four);
+}
+
+.multi_teams_row .one_right{
+    background-color: var(--dr-team-right-one);
+}
+
+.multi_teams_row .two_right{
+    background-color: var(--dr-secondary-background);
+}
+
+.multi_teams_row .three_right{
+    background-color: var(--dr-team-right-three);
+}
+
+.multi_teams_row .four_right{
+    background-color: var(--dr-team-right-four);
+}
+
+
 
 /*free trial*/
 .start_trial{
