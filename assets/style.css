@@ -12,6 +12,14 @@
     --dr-button-unchecked: #d0d0d3;
     --dr-link: #0000EE;
     --dr-text-freetrial: #61082B;
+    --dr-team-left-four: #0093CE;
+    --dr-team-right-three: #0D2481;
+    --dr-team-left-one: #A2D39B;
+    --dr-team-left-one-light: #D1E9CD;
+    --dr-team-left-three: #D5001F;
+    --dr-team-big: #D9D9D9;
+    --dr-team-right-four: #FFD936;
+
 }
 
 body{
