@@ -72,28 +72,21 @@ button{
 .col-3{
     width: calc((100% / 12)* 3);
 }
-
 .col-4{
     width: calc((100% / 12)* 4);
 }
-
 .col-5{
     width: calc((100% / 12)* 5);
 }
-
 .col-6{
     width: calc((100% / 12)* 6);
 }
-
 .col-7{
     width: calc((100% / 12)* 7);
 }
-
-
 .col-8{
     width: calc((100% / 12)* 8);
 }
-
 .col-12{
     width: calc((100% / 12)*12);
 }
@@ -239,17 +232,11 @@ button{
 
 .team_bottom_contents{
     display: flex;
-    position: relative;
 }
 
 .team_bottom_contents .col-4{
     border-style: none;
-}
-
-.content_right button{
-    position: absolute;
-    top: 0;
-    right: 2rem;  
+    text-align: end;
 }
 
 /*partner*/
@@ -367,7 +354,6 @@ button{
     padding: 2.5rem 0;
 }
 
-
 /*free trial*/
 .start_trial{
     display: flex;
@@ -437,11 +423,7 @@ footer{
     color: var(--dr-button-unchecked);
     text-decoration: none;
 }
-
-
-
-
-/*#region footer*/
+/*#endregion footer*/
 
 
 
