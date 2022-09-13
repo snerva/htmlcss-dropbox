@@ -358,6 +358,14 @@ button{
     background-color: var(--dr-team-right-four);
 }
 
+.big hr{
+    width: 25%;
+    margin: 2.5rem 0;
+}
+
+.author{
+    padding: 2.5rem 0;
+}
 
 
 /*free trial*/
