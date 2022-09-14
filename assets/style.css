@@ -59,6 +59,12 @@ h3{
     color: var(--dr-dark-text);
 }
 
+.button_blue:hover,
+.button_white:hover,
+.fa-arrow-down:hover{
+    opacity: 0.8;
+}
+
 .container{
     width: 60%;
     max-width: 998px;
