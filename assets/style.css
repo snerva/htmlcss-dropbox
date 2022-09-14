@@ -41,20 +41,22 @@ h3{
     padding-bottom: 1rem;
 }
 
-button{
+.button_blue,
+.button_white{
+    text-decoration: none;
     padding: 0.5rem 1rem;
     font-size: 1rem;
 }
 
 .button_blue{
     background-color: var(--dr-button);
-    border-style: none;
     color: var(--dr-light-text);
 }
 
 .button_white{
     background-color: var(--dr-light-text);
-    border-color: 1px solid var(--dr-dark-text);
+    border: 1px solid var(--dr-dark-text);
+    color: var(--dr-dark-text);
 }
 
 .container{
@@ -111,7 +113,7 @@ button{
     padding: 20px;
     background-color: var(--dr-light-text);
 }
-.menu a{
+.menu .dropdown{
     text-decoration: none;
     color: var(--dr-dark-text);
     padding: 20px ;
@@ -120,6 +122,7 @@ button{
 .menu a:hover{
     border-bottom: 1px solid black;
 }
+
 /*#endregion header*/
 
 /*#region main*/
@@ -130,8 +133,12 @@ button{
     padding: 3.5rem 0;
 }
 
-.jumbo_contents button{
-    margin: 1.5rem 0 ;
+.jumbo_contents p{
+    margin-bottom: 2rem;
+}
+
+.jumbo_contents #space{
+    margin: 2rem 0;
 }
 
 .jumbo_contents_text{
@@ -239,8 +246,8 @@ button{
     padding: 4rem;
 }
 
-.partner_contents button{
-    margin: 2rem 0;
+.partner_contents p{
+    margin-bottom: 2rem;
 }
 
 /*operations*/
