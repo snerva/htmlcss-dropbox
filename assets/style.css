@@ -156,6 +156,10 @@ h3{
     margin-bottom: -4rem;
 }
 
+.jumbo .fa-arrow-down{
+    color: var(--dr-dark-text);
+}
+
 /*plans*/
 .plans h2{
     font-size: 2rem;
@@ -185,7 +189,7 @@ h3{
     border: 1px solid var(--dr-dark-text); 
 }
 
-.plans_row .team{
+.plans_row .team_plan{
     margin: 0 2rem;
 }
 .plans_row .head{
