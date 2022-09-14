@@ -130,7 +130,7 @@ h3{
 }
 
 .drop:hover .dropdown{
-    background-color: var(--dr-button-unchecked);
+    background-color: var(--dr-team-big);
 }
 .drop{
     display: inline-block;
@@ -138,7 +138,7 @@ h3{
 .drop_contents {
     display: none;
     position: absolute;
-    background-color: var(--dr-button-unchecked);
+    background-color: var(--dr-team-big);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -151,11 +151,11 @@ h3{
     text-align: left;
     font-size: small;
 }
-  
-.drop_contents a:hover {
+
+.drop_contents a:hover{
     background-color: var(--dr-button-unchecked);
+    border-style: none;
 }
-  
 .drop:hover .drop_contents {
     display: block;
 }
@@ -425,14 +425,33 @@ h3{
     padding-bottom: 9.5rem;
 }
 
-.faq{
+.faq a{
+    text-decoration: none;
+    color: var(--dr-dark-text);
     padding: 2.5rem 0;
     justify-content: space-between;
+    border-bottom: 1px solid var(--dr-dark-text);
 }
 
 .faq .fa-angle-down{
     padding: 0 2.5rem;
 }
+
+.faq .accordion_content{
+    padding: 2.5rem 10rem 2.5rem 0;
+    background-color: var(--dr-team-big);
+    display: none;
+    border-bottom: 1px solid var(--dr-dark-text);
+}
+
+.faq a:hover ~ .accordion_content{
+    display: block;
+}
+
+.faq a:hover{
+    background-color: var(--dr-team-big);
+}
+
 /*#endregion main*/
 
 /*#region footer*/
