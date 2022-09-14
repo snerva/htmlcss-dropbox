@@ -123,6 +123,37 @@ h3{
     border-bottom: 1px solid black;
 }
 
+.drop:hover .dropdown{
+    background-color: var(--dr-button-unchecked);
+}
+.drop{
+    display: inline-block;
+}
+.drop_contents {
+    display: none;
+    position: absolute;
+    background-color: var(--dr-button-unchecked);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop_contents a {
+    color: var(--dr-dark-text);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: small;
+}
+  
+.drop_contents a:hover {
+    background-color: var(--dr-button-unchecked);
+}
+  
+.drop:hover .drop_contents {
+    display: block;
+}
+
 /*#endregion header*/
 
 /*#region main*/
@@ -390,11 +421,11 @@ h3{
 
 .faq{
     padding: 2.5rem 0;
+    justify-content: space-between;
 }
 
 .faq .fa-angle-down{
     padding: 0 2.5rem;
-    float: right;
 }
 /*#endregion main*/
 
