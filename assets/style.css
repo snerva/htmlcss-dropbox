@@ -273,64 +273,46 @@ h3{
 }
 
 /*teams*/
+.d-flex{
+    display: flex;
+}
+
+.multi_teams,
+.single_team{
+    width: calc(100% / 3);
+}
+
+.left,
+.right{
+    flex-wrap: wrap;
+}
+
+.team{
+    width: calc(100% / 2);
+}
+
+.team,
+.single_team{
+    aspect-ratio: 1/1;
+}
+
 .team img{
     width: 100%;
     height: 100%;
     object-fit: contain;
     padding: 20%;
-    filter: invert();
+    filter: invert(1);
 }
 
-.big img{
+.team_big img{
+    object-fit: contain;
     width: 50%;
     padding: 0;
     filter: none;
 }
 
-.single_team{
-    background-color: var(--dr-team-big);
-}
-
-.big{
+.team_big{
     padding: 2.5rem;
-}
-
-.multi_teams_row .team{
-    width: 320px;
-    height: 320px;
-}
-
-.multi_teams_row .one_left{
-    background-color: var(--dr-team-left-one);
-    border: 1rem solid var(--dr-team-left-one-light);
-}
-
-.multi_teams_row .two_left{
-    background-color: var(--dr-text-freetrial);
-}
-
-.multi_teams_row .three_left{
-    background-color: var(--dr-team-left-three);
-}
-
-.multi_teams_row .four_left{
-    background-color: var(--dr-team-left-four);
-}
-
-.multi_teams_row .one_right{
-    background-color: var(--dr-team-right-one);
-}
-
-.multi_teams_row .two_right{
-    background-color: var(--dr-secondary-background);
-}
-
-.multi_teams_row .three_right{
-    background-color: var(--dr-team-right-four);
-}
-
-.multi_teams_row .four_right{
-    background-color: var(--dr-team-right-three);
 }
 
 .big hr{
@@ -340,6 +322,43 @@ h3{
 
 .author{
     padding: 2.5rem 0;
+}
+
+.single_team{
+    background-color: var(--dr-team-big);
+}
+
+.multi_teams .one_left{
+    background-color: var(--dr-team-left-one);
+    border: 1rem solid var(--dr-team-left-one-light);
+}
+
+.multi_teams .two_left{
+    background-color: var(--dr-text-freetrial);
+}
+
+.multi_teams .three_left{
+    background-color: var(--dr-team-left-three);
+}
+
+.multi_teams .four_left{
+    background-color: var(--dr-team-left-four);
+}
+
+.multi_teams .one_right{
+    background-color: var(--dr-team-right-one);
+}
+
+.multi_teams .two_right{
+    background-color: var(--dr-secondary-background);
+}
+
+.multi_teams .three_right{
+    background-color: var(--dr-team-right-four);
+}
+
+.multi_teams .four_right{
+    background-color: var(--dr-team-right-three);
 }
 
 /*free trial*/
