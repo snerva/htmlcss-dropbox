@@ -307,7 +307,7 @@ h3{
 .team_big img{
     object-fit: contain;
     width: 50%;
-    padding: 0;
+    padding-bottom: 0;
     filter: none;
 }
 
@@ -315,7 +315,7 @@ h3{
     padding: 2.5rem;
 }
 
-.big hr{
+.team_big hr{
     width: 25%;
     margin: 2.5rem 0;
 }
