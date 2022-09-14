@@ -115,7 +115,7 @@ h3{
 .menu{
     width: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 20px;
     background-color: var(--dr-light-text);
 }
@@ -136,6 +136,7 @@ h3{
     display: inline-block;
 }
 .drop_contents {
+    margin-top: 20px;
     display: none;
     position: absolute;
     background-color: var(--dr-team-big);
